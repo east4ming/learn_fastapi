@@ -48,6 +48,15 @@ task install
 * Write a path operation function (like `def root():` ... above).
 * Run the development server (like `uvicorn main:app --reload`).
 
+### Path Parameters
+
+With FastAPI, by using short, intuitive and standard Python type declarations, you get:
+
+* Editor support: error checks, autocompletion, etc.
+* Data "parsing"
+* Data validation
+* API annotation and automatic documentation
+
 ## 📚️ Reference
 
 * [FastAPI Docs](https://fastapi.tiangolo.com/)
