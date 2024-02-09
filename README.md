@@ -36,8 +36,18 @@ sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d
 task install
 ```
 
+## 🧑‍🎓Learn
+
+### 1️⃣First Steps
+
+* Import FastAPI.
+* Create an `app` instance.
+* Write a path operation decorator (like `@app.get("/")`).
+* Write a path operation function (like `def root():` ... above).
+* Run the development server (like `uvicorn main:app --reload`).
+
 ## 📚️ Reference
 
-- [FastAPI Docs](https://fastapi.tiangolo.com/)
-- [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices)
-- [go-task](https://taskfile.dev/)
+* [FastAPI Docs](https://fastapi.tiangolo.com/)
+* [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices)
+* [go-task](https://taskfile.dev/)
