@@ -1,3 +1,4 @@
+from urllib import response
 from fastapi.testclient import TestClient
 from src.main import app, ModelName
 
@@ -42,3 +43,9 @@ def test_get_model_other():
     model_name = "other_model"
     response = client.get(f"/models/{model_name}")
     assert response.status_code == 422
+
+# Path
+def test_params_path():
+    file_path = "/home/johndoe/myfile.txt"
+    response = client.get(f"/files/{file_path}")
+    assert response.json() == {"file_path": file_path}
