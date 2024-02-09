@@ -35,3 +35,9 @@ sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d
 # install pyenv and requirements
 task install
 ```
+
+## 📚️ Reference
+
+- [FastAPI Docs](https://fastapi.tiangolo.com/)
+- [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices)
+- [go-task](https://taskfile.dev/)
