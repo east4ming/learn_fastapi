@@ -1,0 +1,13 @@
+version: '3'
+
+tasks:
+  install:
+    cmds:
+      - curl https://pyenv.run | bash
+      - pyenv install 3.11
+      - pyenv local 3.11
+      - pip install -r requirements.txt
+
+  activate:
+    cmds:
+      - source .venv/bin/activate

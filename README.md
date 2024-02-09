@@ -25,3 +25,13 @@ python -m pip install "fastapi[all]"
 # or
 python -m pip install fastapi "uvicorn[standard]"
 ```
+
+### Or, Use go-task Executor All Above
+
+```shell
+# install go-task
+sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d
+
+# install pyenv and requirements
+task install
+```
