@@ -1,6 +1,6 @@
 Learn FastAPI through <https://fastapi.tiangolo.com/>
 
-Follow the commits' orders, from [first commit](https://github.com/east4ming/learn_fastapi/commit/9d0d3cccf4a889a95eb0ca751806c6dbeced6cb2) to learn.
+Follow the [commits](https://github.com/east4ming/learn_fastapi/commits/main/)' orders, from [first commit](https://github.com/east4ming/learn_fastapi/commit/9d0d3cccf4a889a95eb0ca751806c6dbeced6cb2) to learn.
 
 ## Install FastAPI
 
