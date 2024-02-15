@@ -57,6 +57,18 @@ With FastAPI, by using short, intuitive and standard Python type declarations, y
 * Data validation
 * API annotation and automatic documentation
 
+### Query Parameters
+
+When you declare other function parameters that are not part of the path parameters, they are automatically interpreted as "query" parameters.
+
+The query is the set of key-value pairs that go after the `?` in a URL, separated by `&` characters.
+
+* Query Defaults
+* Optional parameters
+* Query parameter type conversion
+* Multiple path and query parameters
+* Required query parameters
+
 ## 📚️ Reference
 
 * [FastAPI Docs](https://fastapi.tiangolo.com/)
