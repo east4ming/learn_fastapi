@@ -69,6 +69,30 @@ The query is the set of key-value pairs that go after the `?` in a URL, separate
 * Multiple path and query parameters
 * Required query parameters
 
+### Request Body
+
+When you need to send data from a client (let's say, a browser) to your API, you send it as a **request body**.
+A **request** body is data sent by the client to your API. A **response** body is the data your API sends to the client.
+Your API almost always has to send a **response** body. But clients don't necessarily need to send request bodies all the time.
+
+* Import Pydantic's `BaseModel`
+* Create your data model
+* Declare it as a parameter
+* Use the model
+* Request body + path parameters
+* Request body + path + query parameters
+
+With just that Python type declaration, FastAPI will:
+
+* Read the body of the request as JSON.
+* Convert the corresponding types (if needed).
+* Validate the data.
+  * If the data is invalid, it will return a nice and clear error, indicating exactly where and what was the incorrect data.
+* Give you the received data in the parameter item.
+  * As you declared it in the function to be of type Item, you will also have all the editor support (completion, etc) for all of the attributes and their types.
+* Generate JSON Schema definitions for your model, you can also use them anywhere else you like if it makes sense for your project.
+* Those schemas will be part of the generated OpenAPI schema, and used by the automatic documentation UIs.
+
 ## 📚️ Reference
 
 * [FastAPI Docs](https://fastapi.tiangolo.com/)
