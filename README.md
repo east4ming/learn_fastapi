@@ -93,6 +93,25 @@ With just that Python type declaration, FastAPI will:
 * Generate JSON Schema definitions for your model, you can also use them anywhere else you like if it makes sense for your project.
 * Those schemas will be part of the generated OpenAPI schema, and used by the automatic documentation UIs.
 
+### Query Parameters and String Validations
+
+You can declare additional validations and metadata for your parameters.
+
+Generic validations and metadata:
+
+* `alias`
+* `title`
+* `description`
+* `deprecated`
+
+Validations specific for strings:
+
+* `min_length`
+* `max_length`
+* `pattern`
+
+In these examples you saw how to declare validations for `str` values.
+
 ## 📚️ Reference
 
 * [FastAPI Docs](https://fastapi.tiangolo.com/)
